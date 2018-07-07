@@ -235,8 +235,8 @@ extension AudioPlayer {
         let id = UUID()
 
         observations.started[id] = { [weak self, weak observer] player, item in
-            // If the observer has been deallocated, we can
-            // automatically remove the observation closure.
+            // Если наблюдатель был уничтожен, мы автоматически
+            // удаляем наблюдающее замыкание.
             guard let observer = observer else {
                 self?.observations.started.removeValue(forKey: id)
                 return

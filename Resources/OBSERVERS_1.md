@@ -274,4 +274,4 @@ extension NowPlayingViewController: AudioPlayerObserver {
 
 Во второй части мы продолжим разговор, рассмотрев больше подходов, которыми наблюдатели могут быть реализованы в Swift. Как всегда, я предлагаю вам поэкспериментировать с описанными техниками самостоятельно, чтобы увидеть, как они влияют на код и какой набор плюсов и минусов больше подходит для вашего проекта.  
 
-Оригинал: https://www.swiftbysundell.com/posts/observers-in-swift-part-1
+_Оригинал: https://www.swiftbysundell.com/posts/observers-in-swift-part-1_
